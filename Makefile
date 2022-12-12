@@ -1,2 +1,2 @@
 say-hello:
-	./hello.js
+	node hello.js
