@@ -10,3 +10,6 @@ jobs:
     steps: # список шагов, которые надо выполнить
       - uses: actions/checkout@v2
       - run: make say-hello
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: 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                
