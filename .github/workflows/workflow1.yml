@@ -9,4 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
       - uses: actions/checkout@v2
-      - run: make say-hello          
+      - run: make say-hello
+      - uses: snyk/actions/node@masteir
+        env:
+          SNYK_TOKEN: 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          
