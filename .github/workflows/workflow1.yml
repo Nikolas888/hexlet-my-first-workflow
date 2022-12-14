@@ -8,7 +8,7 @@ jobs:
     # операционная система для работы воркфлоу
     runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - uses: snyk/actions/node@masteir
         env:
           SNYK_TOKEN: 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          
